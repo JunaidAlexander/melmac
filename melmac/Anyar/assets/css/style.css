@@ -231,7 +231,7 @@ h6 {
   position: relative;
 }
 
-.navbar > ul > li {
+.navbar>ul>li {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 24px;
@@ -257,7 +257,7 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar > ul > li > a:before {
+.navbar>ul>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -271,7 +271,7 @@ h6 {
 }
 
 .navbar a:hover:before,
-.navbar li:hover > a:before,
+.navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
   width: 100%;
@@ -280,7 +280,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #fff;
 }
 
@@ -318,11 +318,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #bc6c25;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -334,7 +334,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -346,7 +346,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -409,7 +409,7 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar-mobile > ul > li {
+.navbar-mobile>ul>li {
   padding: 0;
 }
 
@@ -422,14 +422,14 @@ h6 {
 }
 
 .navbar-mobile a:hover:before,
-.navbar-mobile li:hover > a:before,
+.navbar-mobile li:hover>a:before,
 .navbar-mobile .active:before {
   visibility: hidden;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #f6b024;
 }
 
@@ -464,11 +464,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #f6b024;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -573,7 +573,8 @@ h6 {
   }
 }
 
-@media (max-width: 768px), (max-height: 700px) {
+@media (max-width: 768px),
+(max-height: 700px) {
   #hero {
     height: 120vh;
     padding: 100px 0;
@@ -654,7 +655,7 @@ section {
   position: relative;
 }
 
-.about .content ul li + li {
+.about .content ul li+li {
   margin-top: 10px;
 }
 
@@ -770,8 +771,7 @@ section {
   background-color: #0880e8 !important;
 }
 
-img {
-}
+img {}
 
 /*--------------------------------------------------------------
 # Why Us
@@ -824,7 +824,7 @@ img {
   list-style: none;
 }
 
-.why-us .accordion-list li + li {
+.why-us .accordion-list li+li {
   margin-top: 15px;
 }
 
@@ -953,6 +953,7 @@ img {
 }
 
 @media (max-width: 1024px) {
+
   .why-us .content,
   .why-us .accordion-list {
     padding-left: 0;
@@ -995,7 +996,7 @@ img {
 
 .services .icon-box i {
   float: left;
-  color: #f6b024;
+  color: #bf7330;
   font-size: 40px;
   line-height: 0;
 }
@@ -1008,12 +1009,12 @@ img {
 }
 
 .services .icon-box h4 a {
-  color: #05579e;
+  color: #bf7330;
   transition: 0.3s;
 }
 
 .services .icon-box h4 a:hover {
-  color: #0880e8;
+  color: #bf7330;
 }
 
 .services .icon-box p {
@@ -1125,7 +1126,7 @@ p {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #05579e;
+  color: #bc6c25;
 }
 
 .team .member span {
@@ -1181,15 +1182,34 @@ p {
   color: #fff;
 }
 
-.team .member .social a + a {
+.team .member .social a+a {
   margin-left: 8px;
 }
+
+
+/* image slider */
+
+#imageSlider .carousel-item img {
+  width: 100%;
+  height: 400px;
+  /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+ h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 40px;
+  color:#e6ab5e;
+}
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
   padding: 0 100px;
+  margin-bottom: 60px;
 }
 
 .faq .faq-list ul {
@@ -1197,7 +1217,7 @@ p {
   list-style: none;
 }
 
-.faq .faq-list li + li {
+.faq .faq-list li+li {
   margin-top: 15px;
 }
 
@@ -1266,6 +1286,17 @@ p {
     padding: 0;
   }
 }
+
+/* image silder */
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1365,11 +1396,11 @@ p {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #f8c255;

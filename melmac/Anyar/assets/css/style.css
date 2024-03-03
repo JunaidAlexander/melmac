@@ -796,7 +796,7 @@ p {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team .member {
+.testimonials .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -804,32 +804,32 @@ p {
   background: #fff;
 }
 
-.team .member .pic {
+.testimonials .member .pic {
   overflow: hidden;
   width: 180px;
   border-radius: 50%;
 }
 
-.team .member .pic img {
+.testimonials .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.team .member:hover img {
+.testimonials .member:hover img {
   transform: scale(1.1);
 }
 
-.team .member .member-info {
+.testimonials .member .member-info {
   padding-left: 30px;
 }
 
-.team .member h4 {
+.testimonials .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #bc6c25;
 }
 
-.team .member span {
+.testimonials .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -837,7 +837,7 @@ p {
   font-weight: 500;
 }
 
-.team .member span::after {
+.testimonials .member span::after {
   content: "";
   position: absolute;
   display: block;
@@ -848,44 +848,14 @@ p {
   left: 0;
 }
 
-.team .member p {
+.testimonials .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+.testimonials .bi {
+  color: #f6b024;
 }
-
-.team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50px;
-  width: 32px;
-  height: 32px;
-  background: #ecf6fe;
-  color: #0665b7;
-}
-
-.team .member .social a i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.team .member .social a:hover {
-  background: #0880e8;
-  color: #fff;
-}
-
-.team .member .social a + a {
-  margin-left: 8px;
-}
-
 /* image slider */
 
 #imageSlider .carousel-item img {
@@ -901,6 +871,10 @@ h4 {
   font-size: 40px;
   color: #e6ab5e;
 }
+
+/*-------------------------------------------------------------
+#Gallery
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions

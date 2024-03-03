@@ -60,9 +60,21 @@
     </div>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
+    <header id="header" class="fixed-top d-flex align-items-center pt-3 pb-3">
       <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.html">Melmac Carpentry</a></h1>
+        <a
+          href="index.html"
+          class="d-flex align-items-center justify-content-center mt-3 link-body-emphasis text-decoration-none"
+          aria-expanded="false"
+        >
+          <img
+            src=" assets/images/logo.png"
+            alt="mdo"
+            width="250"
+            height="250"
+          />
+        </a>
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -790,12 +802,18 @@
               data-aos-delay="100"
             >
               <div class="container">
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="cead0742-cc9d-4adc-8007-d5bbf2a4d505"
+                  />
                   <div class="mb-3">
                     <!-- <label for="name" class="form-label">Your Name</label> -->
                     <input
                       type="text"
                       class="form-control"
+                      name="name"
                       id="name"
                       placeholder="Enter your name"
                     />
@@ -805,8 +823,20 @@
                     <input
                       type="email"
                       class="form-control"
+                      name="email"
                       id="email"
                       placeholder="Enter your email"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <!-- <label for="email" class="form-label">Your Email</label> -->
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="number"
+                      id="number"
+                      placeholder="Enter your No."
                     />
                   </div>
 
@@ -814,9 +844,10 @@
                     <!-- <label for="message" class="form-label">Message</label> -->
                     <textarea
                       class="form-control"
+                      name="message"
                       id="message"
                       rows="3"
-                      placeholder="Enter your message"
+                      placeholder="How can we help you?"
                     ></textarea>
                   </div>
                   <button type="submit" class="btn btn-submit">Submit</button>
@@ -936,5 +967,7 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact-form.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

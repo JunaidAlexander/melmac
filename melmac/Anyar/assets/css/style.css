@@ -1202,6 +1202,9 @@ h4 {
   text-align: center;
   padding-top: 30px;
 }
+#footer .copyright small {
+  color: gray;
+}
 
 #footer .credits {
   padding-top: 5px;

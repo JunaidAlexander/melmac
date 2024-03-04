@@ -481,7 +481,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("/melmac/Anyar/assets/images/whyus.jpg") top center;
+  background: url("/assets/images/whyus.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -20px;
@@ -718,13 +718,13 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(3, 3, 3, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/melmac/Anyar/assets/images/cta-a.jpg") fixed center center;
+    url("/assets/images/cta-a.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
 .cta-s {
   background: linear-gradient(rgba(3, 3, 3, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/melmac/Anyar/assets/images/cta-s.jpg") fixed center center;
+    url(" /assets/images/cta-s.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -971,7 +971,7 @@ h4 {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url("/melmac/Anyar/assets/images/closet-2.jpg");
+  background: url(" /assets/images/closet-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

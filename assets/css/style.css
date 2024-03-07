@@ -35,6 +35,9 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -598,7 +601,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 }
 

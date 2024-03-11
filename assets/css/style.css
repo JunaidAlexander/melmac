@@ -650,7 +650,7 @@ text {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 150px;
+  padding: 150px 150px 50px 150px;
   background: #fffbf7;
   position: relative;
 }
@@ -714,6 +714,9 @@ text {
   margin-top: -35px;
   font-size: 17px;
   font-weight: 300;
+}
+.services .section-title h2 {
+  margin-top: -60px;
 }
 .services .icon-box {
   margin-bottom: 20px;

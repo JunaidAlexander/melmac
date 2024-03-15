@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+/**
+* Template Name: Anyar
+* Updated: Jan 29 2024 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 body {
   background: #fffbf7;
   font-family: "Open Sans", sans-serif;
@@ -611,7 +626,7 @@ text {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 150px 0 0px;
+  padding: 150px 150px 60px 150px;
   background: #fffbf7;
   position: relative;
 }
@@ -652,6 +667,7 @@ text {
   word-spacing: 0.2rem;
   line-height: 1.8rem;
   text-align: left;
+  margin-left: 0px;
 }
 
 @media (max-width: 992px) {
@@ -676,11 +692,17 @@ text {
 # Services
 --------------------------------------------------------------*/
 .services .section-title .small {
-  margin-top: -35px;
-  font-size: 16px;
+  margin-top: -30px;
+  font-size: 17px;
   font-weight: 300;
 }
+<<<<<<< HEAD
 
+=======
+.services .section-title h2 {
+  margin-top: -60px;
+}
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 .services .icon-box {
   margin-bottom: 20px;
   padding: 40px 20px;
@@ -701,6 +723,7 @@ text {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 22px;
+  color: #bf7330;
 }
 
 .services .icon-box h4 a {
@@ -720,7 +743,15 @@ text {
   text-align: left;
 }
 
+<<<<<<< HEAD
 @media (max-width: 769px) {}
+=======
+@media (max-width: 769px) {
+  .services .section-title .small {
+    text-align: left;
+  }
+}
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 
 #services {
   margin-top: -60px;
@@ -750,10 +781,16 @@ text {
 }
 
 .cta p {
+<<<<<<< HEAD
   font-size: 18px;
   margin-right: 190px;
   color: #fff;
   padding-right: 40px;
+=======
+  font-size: 17px;
+  color: #fff;
+  margin-left: 0px;
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 }
 
 .cta .cta-btn {
@@ -801,20 +838,23 @@ text {
 
 .why-us title,
 text {
-  padding: 5px 15px;
+  text-align: left;
   text-align: left;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   color: #bf7330;
 }
 
+<<<<<<< HEAD
 .card-body {
   padding: 0 10px !important;
 }
 
+=======
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 .why-us title,
 p {
-  padding: 15px 15px;
+  margin-left: -14px;
   font-weight: 400;
   font-size: 17px;
   margin-right: 70px;
@@ -882,9 +922,14 @@ p {
 }
 
 .testimonials .member p {
+<<<<<<< HEAD
   margin: 10px 0 0 0;
   font-size: 15px;
   margin-right: 130px;
+=======
+  margin: 15px 0 0 -0px;
+  font-size: 17px;
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 }
 
 .testimonials .bi {
@@ -945,7 +990,7 @@ h4 {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
@@ -970,9 +1015,9 @@ h4 {
 }
 
 .faq .faq-list p {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 500;
-  margin-bottom: 0;
+  margin-left: 31px;
   padding: 10px 0 0 0;
   margin-left: 30px;
 }
@@ -1018,7 +1063,6 @@ h4 {
 }
 
 .contact:before {
-  content: "";
   background: rgba(97, 96, 96, 0.4);
   position: absolute;
   bottom: 0;
@@ -1029,6 +1073,10 @@ h4 {
 
 .contact .container {
   position: relative;
+}
+
+.cont-cta p {
+  margin-left: 0px;
 }
 
 .contact .info {
@@ -1059,8 +1107,8 @@ h4 {
 
 .contact .info p {
   padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
+  margin-left: 1px;
+  font-size: 17px;
   color: #444444;
 
 }
@@ -1079,6 +1127,7 @@ h4 {
 
 .btn-submit {
   color: #ecf6fe;
+  font-weight: 700;
   border: 3px solid #bc6c25;
 }
 
@@ -1163,7 +1212,7 @@ h4 {
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin: 0 0 0 0px;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
@@ -1205,7 +1254,7 @@ h4 {
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 -16px;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1243,9 +1292,10 @@ h4 {
 #footer .footer-top .footer-contact p {
   line-height: 26px;
   font-size: 14px;
+  margin-left: 0px;
 }
 
-#footer .copyright {
+#footer .footer-top .footer-info #footer .copyright {
   text-align: center;
   padding-top: 30px;
 }

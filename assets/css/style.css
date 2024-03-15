@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /**
 * Template Name: Anyar
 * Updated: Jan 29 2024 with Bootstrap v5.3.2
@@ -10,6 +12,7 @@
 # General
 --------------------------------------------------------------*/
 
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 body {
   background: #fffbf7;
   font-family: "Open Sans", sans-serif;
@@ -233,7 +236,7 @@ h6 {
   position: relative;
 }
 
-.navbar > ul > li {
+.navbar>ul>li {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 24px;
@@ -259,7 +262,7 @@ h6 {
   margin-left: 5px;
 }
 
-.navbar > ul > li > a:before {
+.navbar>ul>li>a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -273,7 +276,7 @@ h6 {
 }
 
 .navbar a:hover:before,
-.navbar li:hover > a:before,
+.navbar li:hover>a:before,
 .navbar .active:before {
   visibility: visible;
   width: 100%;
@@ -282,7 +285,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
   color: #fff;
 }
 
@@ -320,11 +323,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
   color: #bc6c25;
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -336,7 +339,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -348,7 +351,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover > ul {
+  .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
 }
@@ -411,7 +414,7 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar-mobile > ul > li {
+.navbar-mobile>ul>li {
   padding: 0;
 }
 
@@ -424,14 +427,14 @@ h6 {
 }
 
 .navbar-mobile a:hover:before,
-.navbar-mobile li:hover > a:before,
+.navbar-mobile li:hover>a:before,
 .navbar-mobile .active:before {
   visibility: hidden;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
   color: #f6b024;
 }
 
@@ -466,11 +469,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
   color: #f6b024;
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
 
@@ -575,7 +578,8 @@ h6 {
   }
 }
 
-@media (max-width: 768px), (max-height: 700px) {
+@media (max-width: 768px),
+(max-height: 700px) {
   #hero {
     height: 120vh;
     padding: 100px 0;
@@ -646,11 +650,16 @@ text {
   word-spacing: 5px;
   font-weight: 600;
   padding-bottom: 10px;
+  text-align: left;
+  /* Ensure text alignment */
 }
 
-.about-head {
+.about p {
   text-align: left;
+  padding-right: 90px;
+  word-spacing: 5px;
 }
+
 
 .about-text {
   font-size: 18px;
@@ -687,9 +696,13 @@ text {
   font-size: 17px;
   font-weight: 300;
 }
+<<<<<<< HEAD
+
+=======
 .services .section-title h2 {
   margin-top: -60px;
 }
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 .services .icon-box {
   margin-bottom: 20px;
   padding: 40px 20px;
@@ -723,17 +736,22 @@ text {
 }
 
 .services .icon-box p {
-  margin-left: 70px;
+  margin-left: 59px;
   font-size: 17px;
   line-height: 1.8rem;
   margin-bottom: 0;
+  text-align: left;
 }
 
+<<<<<<< HEAD
+@media (max-width: 769px) {}
+=======
 @media (max-width: 769px) {
   .services .section-title .small {
     text-align: left;
   }
 }
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 
 #services {
   margin-top: -60px;
@@ -763,9 +781,16 @@ text {
 }
 
 .cta p {
+<<<<<<< HEAD
+  font-size: 18px;
+  margin-right: 190px;
+  color: #fff;
+  padding-right: 40px;
+=======
   font-size: 17px;
   color: #fff;
   margin-left: 0px;
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 }
 
 .cta .cta-btn {
@@ -820,11 +845,20 @@ text {
   color: #bf7330;
 }
 
+<<<<<<< HEAD
+.card-body {
+  padding: 0 10px !important;
+}
+
+=======
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 .why-us title,
 p {
   margin-left: -14px;
   font-weight: 400;
   font-size: 17px;
+  margin-right: 70px;
+
 }
 
 /*--------------------------------------------------------------
@@ -888,8 +922,14 @@ p {
 }
 
 .testimonials .member p {
+<<<<<<< HEAD
+  margin: 10px 0 0 0;
+  font-size: 15px;
+  margin-right: 130px;
+=======
   margin: 15px 0 0 -0px;
   font-size: 17px;
+>>>>>>> 0ea76404449c2af71e691eefcfab44eef85485a1
 }
 
 .testimonials .bi {
@@ -935,7 +975,7 @@ h4 {
   list-style: none;
 }
 
-.faq .faq-list li + li {
+.faq .faq-list li+li {
   margin-top: 15px;
 }
 
@@ -979,6 +1019,7 @@ h4 {
   font-weight: 500;
   margin-left: 31px;
   padding: 10px 0 0 0;
+  margin-left: 30px;
 }
 
 .faq .faq-list .icon-show {
@@ -1069,7 +1110,15 @@ h4 {
   margin-left: 1px;
   font-size: 17px;
   color: #444444;
+
 }
+
+.contact-txt>p {
+  margin-right: 100px;
+  text-align: left
+  ;
+}
+
 
 .contact .info .email,
 .contact .info .phone {
@@ -1122,11 +1171,11 @@ h4 {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #f8c255;

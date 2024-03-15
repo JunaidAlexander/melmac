@@ -9,33 +9,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-#loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f1f1f1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#loader {
-  border: 8px solid #3498db;
-  border-top: 8px solid #f1f1f1;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 body {
   background: #fffbf7;
@@ -649,7 +622,7 @@ text {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 150px 0 0px;
+  padding: 150px 150px 60px 150px;
   background: #fffbf7;
   position: relative;
 }
@@ -685,6 +658,7 @@ text {
   word-spacing: 0.2rem;
   line-height: 1.8rem;
   text-align: left;
+  margin-left: 0px;
 }
 
 @media (max-width: 992px) {
@@ -709,9 +683,12 @@ text {
 # Services
 --------------------------------------------------------------*/
 .services .section-title .small {
-  margin-top: -35px;
-  font-size: 16px;
+  margin-top: -30px;
+  font-size: 17px;
   font-weight: 300;
+}
+.services .section-title h2 {
+  margin-top: -60px;
 }
 .services .icon-box {
   margin-bottom: 20px;
@@ -733,6 +710,7 @@ text {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 22px;
+  color: #bf7330;
 }
 
 .services .icon-box h4 a {
@@ -752,6 +730,9 @@ text {
 }
 
 @media (max-width: 769px) {
+  .services .section-title .small {
+    text-align: left;
+  }
 }
 
 #services {
@@ -782,8 +763,9 @@ text {
 }
 
 .cta p {
-  font-size: 18px;
+  font-size: 17px;
   color: #fff;
+  margin-left: 0px;
 }
 
 .cta .cta-btn {
@@ -831,18 +813,16 @@ text {
 
 .why-us title,
 text {
-  padding: 5px 15px;
+  text-align: left;
   text-align: left;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   color: #bf7330;
 }
-.card-body {
-  padding: 0 10px !important;
-}
+
 .why-us title,
 p {
-  padding: 15px 15px;
+  margin-left: -14px;
   font-weight: 400;
   font-size: 17px;
 }
@@ -908,8 +888,8 @@ p {
 }
 
 .testimonials .member p {
-  margin: 10px 0 0 0;
-  font-size: 15px;
+  margin: 15px 0 0 -0px;
+  font-size: 17px;
 }
 
 .testimonials .bi {
@@ -970,7 +950,7 @@ h4 {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
@@ -995,9 +975,9 @@ h4 {
 }
 
 .faq .faq-list p {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 500;
-  margin-bottom: 0;
+  margin-left: 31px;
   padding: 10px 0 0 0;
 }
 
@@ -1042,7 +1022,6 @@ h4 {
 }
 
 .contact:before {
-  content: "";
   background: rgba(97, 96, 96, 0.4);
   position: absolute;
   bottom: 0;
@@ -1053,6 +1032,10 @@ h4 {
 
 .contact .container {
   position: relative;
+}
+
+.cont-cta p {
+  margin-left: 0px;
 }
 
 .contact .info {
@@ -1083,8 +1066,8 @@ h4 {
 
 .contact .info p {
   padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
+  margin-left: 1px;
+  font-size: 17px;
   color: #444444;
 }
 
@@ -1095,6 +1078,7 @@ h4 {
 
 .btn-submit {
   color: #ecf6fe;
+  font-weight: 700;
   border: 3px solid #bc6c25;
 }
 
@@ -1179,7 +1163,7 @@ h4 {
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin: 0 0 0 0px;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
@@ -1221,7 +1205,7 @@ h4 {
 #footer .footer-top .footer-links ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 -16px;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1259,9 +1243,10 @@ h4 {
 #footer .footer-top .footer-contact p {
   line-height: 26px;
   font-size: 14px;
+  margin-left: 0px;
 }
 
-#footer .copyright {
+#footer .footer-top .footer-info #footer .copyright {
   text-align: center;
   padding-top: 30px;
 }

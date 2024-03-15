@@ -1,11 +1,6 @@
 (function () {
   "use strict";
 
-  window.addEventListener("load", function () {
-    var loaderContainer = document.getElementById("loader-container");
-    // Hide the loader
-    loaderContainer.style.display = "none";
-  });
   /**
    * Easy selector helper function
    */

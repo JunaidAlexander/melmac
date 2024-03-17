@@ -75,7 +75,7 @@ h6 {
 --------------------------------------------------------------*/
 #topbar {
   background: rgb(3, 3, 63, 0.1);
-  height: 60px;
+  height: 70px;
   padding: 0;
   font-size: 14px;
   font-weight: 600;
@@ -89,7 +89,7 @@ h6 {
 }
 
 #topbar .contact-info a {
-  line-height: 0;
+  line-height: 15px;
   color: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
 }
@@ -762,22 +762,25 @@ text {
   background: #fffbf7;
 }
 
-.why-us title,
-text {
-  text-align: left;
-  text-align: left;
-  font-size: 22px;
-  font-weight: 700;
-  color: #bf7330;
+.why-us .fa {
+  color: #03033f;
 }
 
-.why-us title,
-p {
-  margin-left: -14px;
-  font-weight: 400;
+.why-us h3 {
+  font-weight: 700;
+  color: #03033f;
+}
+.why-us h5 {
+  /* text-align: left; */
+  font-weight: 700;
+  font-size: 24px;
+  color: #03033f;
+}
+
+.why-us p {
+  /* text-align: left; */
   font-size: 17px;
 }
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/

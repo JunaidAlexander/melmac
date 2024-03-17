@@ -771,14 +771,14 @@ text {
   color: #03033f;
 }
 .why-us h5 {
-  /* text-align: left; */
+  text-align: left;
   font-weight: 700;
   font-size: 24px;
   color: #03033f;
 }
 
 .why-us p {
-  /* text-align: left; */
+  text-align: left;
   font-size: 17px;
 }
 /*--------------------------------------------------------------
